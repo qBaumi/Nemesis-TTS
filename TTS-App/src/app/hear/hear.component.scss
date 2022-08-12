@@ -1,0 +1,58 @@
+.messages{
+
+  line-height: 1.9rem;
+  overflow-y: scroll;
+}
+.container{
+  max-width: 50%;
+  color: white;
+  font-size: 1.6rem;
+  position: absolute;
+  top: 12%;
+  left: 20%;
+}
+/* custom scrollbar */
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #d6dee1;
+  border-radius: 20px;
+  border: 6px solid transparent;
+  background-clip: content-box;
+  opacity: 0.5;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #a8bbbf;
+}
+
+.voice {
+  padding: 0.7rem;
+  border: 2px solid white;
+  margin: 0.5rem;
+  margin-left: 0;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  cursor: pointer;
+}
+.selected {
+  background: rgba($color: white, $alpha: 0.2);
+}
+.message {
+  border-bottom: 1px solid white;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+.home {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 2rem;
+  cursor: pointer;
+}

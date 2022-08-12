@@ -1,0 +1,7 @@
+{
+  "/translate_tts/*": {
+      "target": "https://translate.google.com",
+      "secure": true,
+      "logLevel": "debug"
+  }
+}
